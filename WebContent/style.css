@@ -1,0 +1,88 @@
+@CHARSET "UTF-8";
+
+body
+{
+	margin-left: auto;
+	margin-right: auto;
+	width: 90%;
+	text-align: center;
+}
+
+h1
+{
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+}
+
+form
+{
+	min-height: 100px;
+}
+
+input
+{
+	border-radius: 0px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+td
+{
+	border: 1px solid #B2B2B2;	
+}
+
+th
+{
+	padding: 5px;
+}
+
+#showUsersUL
+{
+	text-align: right;
+}
+
+#addForm
+{
+	
+	float: left;
+	width: 33%;
+	text-align: left;
+}
+
+#removeForm
+{
+	float: left;
+	width: 33%;
+}
+
+#updateForm
+{
+	float: left;
+	width: 33%;
+	text-align: right;
+	clear: right;
+}
+
+#sendEmailForm
+{
+	float: left;
+	text-align: left;
+	width: 33%;
+}
+
+#emailTable
+{
+	float: left;
+	text-align: center;
+	width: 33%;
+	padding: 5px;
+	border-collapse: collapse;
+}
+
+#showUsersForm
+{
+	float: left;
+	text-align: right;
+	width: 33%;
+}

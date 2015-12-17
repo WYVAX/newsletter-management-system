@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>Newsletter Administration</title>
+		<script src="http://code.jquery.com/jquery-1.11.0.min.js" type="text/javascript"></script>
+		<script src="subscription.js" type="text/javascript"></script>
+		<link href="style.css" type="text/css" rel="stylesheet">
+	</head>
+	
+	<body>
+	
+		
+		
+		<h1>Subscriber Management</h1>
+		
+		
+		<form id="addForm">
+			<input type="text" id="addNameTextBox"  placeholder="Name"class="textInputType"><br>
+			
+			<input type="text" id="addEmailTextBox"  placeholder="Email"class="textInputType"><br>
+			
+			<input type="submit" value="Add Subscriber">
+		</form>
+		
+		
+		
+		<form id="removeForm">
+			<input type="text" id="removeTextBox" placeholder="Email" class="textInputType"><br>
+			
+			<input type="submit" value="Remove Subscriber">
+		</form>
+	
+		
+		
+		<form id="updateForm">
+			<input type="text" id="oldEmailTextBox" placeholder="Old Email" class="textInputType"><br>
+			
+			<input type="text" id="newEmailTextBox" placeholder="New Email" class="textInputType"><br>
+			
+			<input type="submit" value="Edit Email">
+		</form>
+	
+		
+		
+		<form id="sendEmailForm">
+			<input id="sendEmailSubmit" type="submit" value="Mail Newsletters">
+		</form>
+		
+		<table id="emailTable">
+			<thead>
+				<tr>
+					<th>Name</th>
+					<th>Email</th>
+				</tr>
+			</thead>
+			<tbody id="emailTableBody">
+				
+			</tbody>
+		</table>
+		
+		
+		<form id="showUsersForm">
+			
+			<input id="showUsersSubmit" type="submit" value="Show all subscribers">
+		</form>
+		
+		
+	</body>
+</html>

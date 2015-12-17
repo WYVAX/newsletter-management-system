@@ -1,0 +1,1 @@
+To get the DB setup, just take the "TestDB" file and put it on your C: drive. It should work from there
